@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 3% 5%;
+    background-color: #edf2f8; 
+}
+
+/* PICS*/
+#daniel,
+#jonathan,
+#jeanette,
+#patrick,
+#Kira {
+    border-radius: 100%;
+    border: none;
+    margin-right: 8px;
+}
+
+#top-left-pic,
+#top-right-pic,
+#bottom-left-pic,
+#bottom-right-pic,
+#right-one-pic {
+    display: flex;
+    align-items: center;
+}
+
+#top-left {
+    background-color: #733fc8;
+    color: white;
+    padding: 5%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+#top-right {
+    background-color: #49556b;
+    color: white;
+    padding: 5%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+#bottom-left {
+    background-color: white;
+    padding: 5%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    color: hsl(217, 19%, 35%);
+}
+
+#bottom-right {
+    background-color: #18202D ;
+    color: white;
+    padding: 5%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+#right-one {
+    background-color: white;
+    padding: 5%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    color: hsl(217, 19%, 35%);
+}
+
+h3{
+    font-size: 18px;
+    margin-bottom: 16px;
+    margin-top: 12px;
+}
+
+h6{
+    opacity: .8;
+}
+
+p{
+    font-size: 13px;
+    opacity: .8;
+}
+
+
+@media (min-width: 576px) {
+
+    #main{
+        display: flex;
+        width: 1100px;
+        height: 572px;
+        margin: 0 auto;
+    }
+
+  #four-card{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 75%;
+  }
+
+  #top-section,#bottom-section{
+    display: flex;
+  }
+
+   #right-one{
+    flex-basis: 25%;
+    margin-left: 24px;
+  }
+
+  #top-left,
+#top-right,
+#bottom-left,
+#bottom-right,
+#right-one{
+    padding: 24px;
+}
+
+#top-right,
+#bottom-right{
+    margin-left: 24px;
+}
+}
